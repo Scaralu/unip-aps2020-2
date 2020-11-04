@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f39acca7-1d74-4feb-80ae-3197198e5fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EscreverArquivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GeradorDeNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LerArquivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EscreverArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EscreverArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeradorDeNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradorDeNumeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,7 @@
       <updated>1604531562671</updated>
       <workItem from="1604531564340" duration="692000" />
       <workItem from="1604532890116" duration="50000" />
-      <workItem from="1604532953703" duration="810000" />
+      <workItem from="1604532953703" duration="952000" />
     </task>
     <servers />
   </component>
