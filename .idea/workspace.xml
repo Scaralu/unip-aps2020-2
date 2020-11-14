@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f39acca7-1d74-4feb-80ae-3197198e5fa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/GeradorDeNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EscreverArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EscreverArquivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeradorDeNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeradorDeNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EscreverArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/EscreverArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeradorDeNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LerArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/LerArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,6 +76,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <module name="unip-aps2020-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -76,6 +94,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickSort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +110,9 @@
       <updated>1604531562671</updated>
       <workItem from="1604531564340" duration="692000" />
       <workItem from="1604532890116" duration="50000" />
-      <workItem from="1604532953703" duration="952000" />
+      <workItem from="1604532953703" duration="1070000" />
+      <workItem from="1604840204383" duration="74000" />
+      <workItem from="1605390908319" duration="3825000" />
     </task>
     <servers />
   </component>
@@ -104,16 +129,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2658" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604533050697">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="2658" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1080/0.576.1920.1080@1920.0.2560.1080" timestamp="1604533050697" />
+    <state x="3008" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605391800660">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="3008" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605391800660" />
     <state x="2932" y="332" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604533049284">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="2932" y="332" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.2560.1080/0.576.1920.1080@1920.0.2560.1080" timestamp="1604533049284" />
+    <state x="2953" y="444" width="484" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605392260119">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2953" y="444" width="484" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605392260119" />
     <state x="3437" y="27" width="749" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604533495647">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
@@ -122,5 +156,29 @@
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="2983" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.2560.1080/0.576.1920.1080@1920.0.2560.1080" timestamp="1604532935467" />
+    <state width="2514" height="275" key="GridCell.Tab.0.bottom" timestamp="1605394657211">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2514" height="275" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
+    <state width="2514" height="275" key="GridCell.Tab.0.center" timestamp="1605394657211">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2514" height="275" key="GridCell.Tab.0.center/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
+    <state width="2514" height="275" key="GridCell.Tab.0.left" timestamp="1605394657211">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2514" height="275" key="GridCell.Tab.0.left/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
+    <state width="2514" height="275" key="GridCell.Tab.0.right" timestamp="1605394657211">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2514" height="275" key="GridCell.Tab.0.right/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
+    <state x="2864" y="252" key="run.anything.popup" timestamp="1605393638164">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2864" y="252" key="run.anything.popup/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605393638164" />
+    <state x="2863" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605392008796">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2863" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605392008796" />
   </component>
 </project>

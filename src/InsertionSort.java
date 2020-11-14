@@ -1,8 +1,9 @@
+import utils.GeradorDeNumeros;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 
 public class InsertionSort {
@@ -26,18 +27,6 @@ public class InsertionSort {
         // System.nanoTime() - para trabalhar com quantidades menores, sua precisão é maior
         // System.currentTimeMillis() - pega o tempo exato do sistema, sua precisão é menor
         System.out.println("\n\nTempo de execução: " + elapsed + "ns");
-    }
-    
-    // método para gerar números aleatórios até de 0 a 100 para ordenar
-    private static List<Integer> generateNumbers() {
-        Random gerador = new Random();
-        List<Integer> arrayList = new ArrayList<>();
-        
-        for (int i = 0; i < 20000; i++) {             
-            arrayList.add(gerador.nextInt(20000));
-        }
-        
-        return arrayList;
     }
     
     // método para ler arquivo com números em .csv
@@ -66,7 +55,7 @@ public class InsertionSort {
     
     public static void main(String a[]){
         System.out.println("*** ANTES ***");
-        List<Integer> arrayList = generateNumbers();
+        List<Integer> arrayList = GeradorDeNumeros.randomNumberList(20000);
         
         for(int i:arrayList){    
             System.out.print(i+" ");    
@@ -80,5 +69,5 @@ public class InsertionSort {
         for(int i:arrayList){    
             System.out.print(i+" ");
         }
-    }    
-} 
+    }
+}

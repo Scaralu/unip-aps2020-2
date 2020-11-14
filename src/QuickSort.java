@@ -1,59 +1,65 @@
+import utils.GeradorDeNumeros;
+import java.util.List;
+
 class QuickSort {
-    int breakArr(int arr[], int firstPartitionIndex, int lastPartitionIndex) {
-        int pivot = arr[lastPartitionIndex];
+
+    public static void main(String args[]) {
+        QuickSort quickSort = new QuickSort();
+        List<Integer> arr = GeradorDeNumeros.randomNumberList(10);
+        System.out.print("Unsorted array: ");
+        printArray(arr);
+
+        int n = arr.size();
+        long startTimer = System.nanoTime();
+
+        quickSort.sort(arr, 0, n-1);
+
+        long endTimer = System.nanoTime();
+        long timer = endTimer - startTimer;
+        System.out.println();
+        System.out.println("Time for sorting this array: " + timer);
+        System.out.print("Sorted array: ");
+        printArray(arr);
+    }
+
+    public int breakArr(List<Integer> arr, int firstPartitionIndex, int lastPartitionIndex) {
+        int pivot = arr.get(lastPartitionIndex);
         int i = (firstPartitionIndex-1);
 
         for (int j=firstPartitionIndex; j<lastPartitionIndex; j++) {
-            if (arr[j] <= pivot) {
+            if (arr.get(j) <= pivot) {
                 i++;
 
-                int indexTemp = arr[i];
+                int indexTemp = arr.get(i);
 
-                arr[i] = arr[j];
-                arr[j] = indexTemp;
+                arr.set(i, arr.get(j));
+                arr.set(j, indexTemp);
             }
         }
 
-        int swap = arr[i+1];
+        int swap = arr.get(i + 1);
 
-        arr[i+1] = arr[lastPartitionIndex];
-        arr[lastPartitionIndex] = swap;
+        arr.set(i + 1, arr.get(lastPartitionIndex));
+        arr.set(lastPartitionIndex, swap);
 
         return i+1;
     }
 
-    void sort(int arr[], int firstIndex, int lastIndex)
-    {
+    public void sort(List<Integer> arr, int firstIndex, int lastIndex) {
         // checks if there is still a element to be sorted
-
         if (firstIndex < lastIndex) {
             int brokeArrIndex = breakArr(arr, firstIndex, lastIndex);
 
-
             // sorts elements before and after the broken array index
-
             sort(arr, firstIndex, brokeArrIndex-1);
             sort(arr, brokeArrIndex+1, lastIndex);
         }
     }
 
-    static void printArray(int arr[]) {
-        int n = arr.length;
-        for (int i=0; i<n; ++i)
-            System.out.print(arr[i]+" ");
+    public static void printArray(List<Integer> arr) {
+        int n = arr.size();
+        for (int i = 0; i < n; ++i)
+            System.out.print(arr.get(i) + " ");
         System.out.println();
-    }
-
-    public static void main(String args[])
-    {
-        // arr to be used in sort funtcion
-        int arr[] = new int[]{10, 7, 8, 9, 1, 5};
-        int n = arr.length;
-
-        QuickSort quickSort = new QuickSort();
-        quickSort.sort(arr, 0, n-1);
-
-        System.out.println("Sorted array: ");
-        printArray(arr);
     }
 }
