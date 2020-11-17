@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f39acca7-1d74-4feb-80ae-3197198e5fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/GeradorDeNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Ordenador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EscreverArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/EscreverArquivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeradorDeNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LerArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/LerArquivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unip-aps2020-2/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unip-aps2020-2/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unip-aps2020-2/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/EscreverArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/LerArquivo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,40 +65,57 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/unip-aps2020-2-main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ordenador">
+    <configuration name="Ordenador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.Ordenador" />
+      <module name="unip-aps2020-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="unip-aps2020-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ordenador" />
         <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
@@ -112,7 +132,8 @@
       <workItem from="1604532890116" duration="50000" />
       <workItem from="1604532953703" duration="1070000" />
       <workItem from="1604840204383" duration="74000" />
-      <workItem from="1605390908319" duration="3825000" />
+      <workItem from="1605390908319" duration="4948000" />
+      <workItem from="1605564072560" duration="8624000" />
     </task>
     <servers />
   </component>
@@ -136,6 +157,10 @@
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="2658" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1080/0.576.1920.1080@1920.0.2560.1080" timestamp="1604533050697" />
+    <state x="3487" y="355" width="695" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605565613735">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="3487" y="355" width="695" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605565613735" />
     <state x="3008" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605391800660">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
@@ -152,33 +177,81 @@
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="3437" y="27" width="749" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.2560.1080/0.576.1920.1080@1920.0.2560.1080" timestamp="1604533495647" />
-    <state x="2983" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604532935467">
+    <state x="2983" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605566337811">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
+    <state x="2983" y="298" key="FileChooserDialogImpl/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605566337811" />
     <state x="2983" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.2560.1080/0.576.1920.1080@1920.0.2560.1080" timestamp="1604532935467" />
-    <state width="2514" height="275" key="GridCell.Tab.0.bottom" timestamp="1605394657211">
+    <state width="2514" height="275" key="GridCell.Tab.0.bottom" timestamp="1605573112397">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="275" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
-    <state width="2514" height="275" key="GridCell.Tab.0.center" timestamp="1605394657211">
+    <state width="2514" height="275" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573112397" />
+    <state width="2514" height="275" key="GridCell.Tab.0.center" timestamp="1605573112396">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="275" key="GridCell.Tab.0.center/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
-    <state width="2514" height="275" key="GridCell.Tab.0.left" timestamp="1605394657211">
+    <state width="2514" height="275" key="GridCell.Tab.0.center/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573112396" />
+    <state width="2514" height="275" key="GridCell.Tab.0.left" timestamp="1605573112396">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="275" key="GridCell.Tab.0.left/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
-    <state width="2514" height="275" key="GridCell.Tab.0.right" timestamp="1605394657211">
+    <state width="2514" height="275" key="GridCell.Tab.0.left/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573112396" />
+    <state width="2514" height="275" key="GridCell.Tab.0.right" timestamp="1605573112397">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="275" key="GridCell.Tab.0.right/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605394657211" />
-    <state x="2864" y="252" key="run.anything.popup" timestamp="1605393638164">
+    <state width="2514" height="275" key="GridCell.Tab.0.right/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573112397" />
+    <state width="2514" height="340" key="GridCell.Tab.1.bottom" timestamp="1605573084315">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2864" y="252" key="run.anything.popup/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605393638164" />
-    <state x="2863" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605392008796">
+    <state width="2514" height="340" key="GridCell.Tab.1.bottom/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573084315" />
+    <state width="2514" height="340" key="GridCell.Tab.1.center" timestamp="1605573084315">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2863" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605392008796" />
+    <state width="2514" height="340" key="GridCell.Tab.1.center/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573084315" />
+    <state width="2514" height="340" key="GridCell.Tab.1.left" timestamp="1605573084315">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2514" height="340" key="GridCell.Tab.1.left/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573084315" />
+    <state width="2514" height="340" key="GridCell.Tab.1.right" timestamp="1605573084315">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2514" height="340" key="GridCell.Tab.1.right/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605573084315" />
+    <state x="2693" y="272" width="1004" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605571641538">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2693" y="272" width="1004" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605571641538" />
+    <state x="3573" y="314" width="524" height="485" key="extract.method.dialog" timestamp="1605567085217">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="3573" y="314" width="524" height="485" key="extract.method.dialog/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605567085217" />
+    <state x="2864" y="252" key="run.anything.popup" timestamp="1605567109047">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2864" y="252" key="run.anything.popup/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605567109047" />
+    <state x="2863" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605568964547">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2863" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1080/0.515.1920.1080@1920.0.2560.1080" timestamp="1605568964547" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/sort/QuickSort.java</url>
+          <line>32</line>
+          <properties class="sort.QuickSort" method="sort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/Ordenador.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
