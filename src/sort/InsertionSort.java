@@ -1,7 +1,5 @@
 package sort;
 
-import utils.GeradorDeNumeros;
-
 import java.util.List;
 
 public class InsertionSort {

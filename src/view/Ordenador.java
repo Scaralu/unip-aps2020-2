@@ -9,7 +9,6 @@ import utils.Print;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JFrame;
@@ -23,7 +22,6 @@ public class Ordenador implements ActionListener {
     JTextArea bubbleSortResult = new JTextArea();
     JTextArea insertSortResult = new JTextArea();
     JTextArea quickSortResult = new JTextArea();
-
 
     public Ordenador() {
         setConfig();
@@ -82,16 +80,15 @@ public class Ordenador implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         List<Integer> arrayNum = GeradorDeNumeros.randomNumberList(100);
-
-            if (actionEvent.getActionCommand() == "bubbleSort") {
-                this.bubbleSort(arrayNum);
-            } else if (actionEvent.getActionCommand() == "insertionSort") {
-                this.insertionSortView(arrayNum);
-            } else if (actionEvent.getActionCommand() == "quickSort") {
-                this.quickSortView(arrayNum);
-            } else if (actionEvent.getActionCommand() == "sair") {
-                System.exit(0);
-            }
+        if (actionEvent.getActionCommand() == "bubbleSort") {
+            this.bubbleSort(arrayNum);
+        } else if (actionEvent.getActionCommand() == "insertionSort") {
+            this.insertionSortView(arrayNum);
+        } else if (actionEvent.getActionCommand() == "quickSort") {
+            this.quickSortView(arrayNum);
+        } else {
+            System.exit(0);
+        }
     }
 
     public void bubbleSort(List<Integer> arrayNum) {

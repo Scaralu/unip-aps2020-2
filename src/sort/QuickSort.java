@@ -1,8 +1,5 @@
 package sort;
 
-import utils.GeradorDeNumeros;
-import utils.Print;
-
 import java.util.List;
 
 public class QuickSort {

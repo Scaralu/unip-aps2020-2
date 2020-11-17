@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f39acca7-1d74-4feb-80ae-3197198e5fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Ordenador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/unip-aps2020-2/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/unip-aps2020-2/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/unip-aps2020-2/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/EscreverArquivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/LerArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Ordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Ordenador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +125,7 @@
       <workItem from="1604532953703" duration="1070000" />
       <workItem from="1604840204383" duration="74000" />
       <workItem from="1605390908319" duration="4948000" />
-      <workItem from="1605564072560" duration="8624000" />
+      <workItem from="1605564072560" duration="9040000" />
     </task>
     <servers />
   </component>
@@ -238,17 +230,9 @@
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/sort/QuickSort.java</url>
-          <line>32</line>
-          <properties class="sort.QuickSort" method="sort">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/view/Ordenador.java</url>
-          <line>130</line>
+          <line>127</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
